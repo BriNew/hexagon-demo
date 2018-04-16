@@ -1,0 +1,29 @@
+a {
+	text-decoration: none
+}
+
+ul {
+	border-bottom: 1px solid black;
+	padding-left: 0;
+}
+
+li {
+	width: 20%;
+	padding-bottom: 10px;
+
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+nav div ul {
+	display: table;
+	width: 100%;
+	list-style: none;
+}
+
+nav div ul li  {
+	display: table-cell;
+	text-align: center;
+}
